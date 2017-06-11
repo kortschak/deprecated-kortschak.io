@@ -17,6 +17,7 @@ defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
+  fractions = false
 
 [params]
   name = "Dan Kortschak"
@@ -85,7 +86,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["override.css"]
   custom_js  = []
 
   # Publication types.
@@ -130,7 +131,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//git.kortschak.io"
+    link = "//github.com/kortschak"
 
   [[params.social]]
     icon = "google-scholar"

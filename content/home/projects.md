@@ -30,6 +30,10 @@ view = 1
   tag = ".scientific-code"
 
 [[filter]]
+  name = "Tools"
+  tag = ".tools"
+
+[[filter]]
   name = "Fun"
   tag = ".fun"
 

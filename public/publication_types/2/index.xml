@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on kortschak.io</title>
+    <link>http://kortschak.io/publication_types/2/</link>
+    <description>Recent content in 2 on kortschak.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Dan Kortschak</copyright>
+    <lastBuildDate>Fri, 26 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/2/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>bíogo/ncbi: interfaces to NCBI services for the Go language</title>
+      <link>http://kortschak.io/publication/biogo-ncbi/</link>
+      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/biogo-ncbi/</guid>
+      <description>&lt;p&gt;Biotechnology Information (US), National Center for. 2005. “Entrez Programming Utilities Help.” &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/books/NBK3836/&#34; target=&#34;_blank&#34;&gt;https://www.ncbi.nlm.nih.gov/books/NBK3836/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;———. 2010. “Entrez Programming Utilities Help.” &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/books/NBK25501/&#34; target=&#34;_blank&#34;&gt;https://www.ncbi.nlm.nih.gov/books/NBK25501/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;———. 2017a. “Basic Local Alignment Search Tool.” Accessed March 3. &lt;a href=&#34;https://blast.ncbi.nlm.nih.gov/Blast.cgi&#34; target=&#34;_blank&#34;&gt;https://blast.ncbi.nlm.nih.gov/Blast.cgi&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;———. 2017b. “Common Url Api.” Accessed March 3. &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/BLAST/Doc/urlapi.html&#34; target=&#34;_blank&#34;&gt;http://www.ncbi.nlm.nih.gov/BLAST/Doc/urlapi.html&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cock P.J.A., et al. 2009. “Biopython: Freely Available Python Tools for Computational Molecular Biology and Bioinformatics.” Bioinformatics 25 (11): 1422–3. doi:&lt;a href=&#34;https://doi.org/10.1093/bioinformatics/btp163&#34; target=&#34;_blank&#34;&gt;10.1093/bioinformatics/btp163&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fields C. 2017a. “Bio-Eutilities.” Accessed March 3. &lt;a href=&#34;https://github.com/bioperl/bioperl-run&#34; target=&#34;_blank&#34;&gt;https://github.com/bioperl/bioperl-run&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;———. 2017b. “Bio-Eutilities.” Accessed March 3. &lt;a href=&#34;https://github.com/bioperl/Bio-EUtilities&#34; target=&#34;_blank&#34;&gt;https://github.com/bioperl/Bio-EUtilities&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Stajich J.E., et al. 2002. “The Bioperl Toolkit: Perl Modules for the Life Sciences.” Genome Research 12 (10): 1611–8. doi:&lt;a href=&#34;https://doi.org/10.1101/gr.361602&#34; target=&#34;_blank&#34;&gt;10.1101/gr.361602&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>bíogo: a simple high-performance bioinformatics toolkit for the Go language</title>
+      <link>http://kortschak.io/publication/biogo/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/biogo/</guid>
+      <description>&lt;p&gt;Kortschak, R. D., and D. L. Adelson. 2014. &amp;ldquo;bíogo: A Simple High-Performance Bioinformatics Toolkit for the Go Language.&amp;rdquo; BioRxiv. doi:&lt;a href=&#34;https://doi.org/10.1101/005033&#34; target=&#34;_blank&#34;&gt;10.1101/005033&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>bíogo/hts: high throughput sequence handling for the Go language</title>
+      <link>http://kortschak.io/publication/biogo-hts/</link>
+      <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/biogo-hts/</guid>
+      <description>&lt;p&gt;Tarasov A., Vilella A., Cuppen E., Nijman I. J., and Prins P. 2015. &amp;ldquo;Sambamba: Fast Processing of Ngs Alignment Formats.&amp;rdquo; Bioinformatics 31 (12): 2032–4. doi:&lt;a href=&#34;https://doi.org/10.1093/bioinformatics/btv098&#34; target=&#34;_blank&#34;&gt;10.1093/bioinformatics/btv098&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The SAM/BAM Format Specification Working Group. 2016. &amp;ldquo;Sequence Alignment/Map Format Specification.&amp;rdquo; &lt;a href=&#34;https://samtools.github.io/hts-specs/SAMv1.pdf&#34; target=&#34;_blank&#34;&gt;https://samtools.github.io/hts-specs/SAMv1.pdf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Li H., Handsaker B., Wysoker A., Fennell T., Ruan J., Homer N., Marth G., Abecasis G., Durbin R., and 1000 Genome Project Data Processing Subgroup. 2012. &amp;ldquo;The Sequence Alignment/Map Format and Samtools.&amp;rdquo; Bioinformatics 25 (16): 2078–9. doi:&lt;a href=&#34;https://doi.org/10.1093/bioinformatics/btp352&#34; target=&#34;_blank&#34;&gt;10.1093/bioinformatics/btp352&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LINEs between Species: Evolutionary Dynamics of LINE-1 Retrotransposons across the Eukaryotic Tree of Life</title>
+      <link>http://kortschak.io/publication/lines/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/lines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HENMT1 and piRNA Stability Are Required for Adult Male Germ Cell Transposon Repression and to Define the Spermatogenic Program in the Mouse</title>
+      <link>http://kortschak.io/publication/henmt/</link>
+      <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/henmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EST Analysis of the Cnidarian Acropora millepora Reveals Extensive Gene Loss and Rapid Sequence Divergence in the Model Invertebrates</title>
+      <link>http://kortschak.io/publication/coral/</link>
+      <pubDate>Tue, 16 Dec 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/coral/</guid>
+      <description>&lt;p&gt;A brief commentary on the paper is available in &lt;em&gt;Nature&lt;/em&gt; &lt;a href=&#34;http://www.nature.com/news/1998/031215/full/news031215-2.html&#34; target=&#34;_blank&#34;&gt;News and Views&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolutionary analysis of vertebrate Notch genes</title>
+      <link>http://kortschak.io/publication/notch/</link>
+      <pubDate>Thu, 15 Mar 2001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/notch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARID proteins come in from the desert</title>
+      <link>http://kortschak.io/publication/arid/</link>
+      <pubDate>Tue, 13 Jun 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/arid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterization of the dead ringer gene identifies a novel, highly conserved family of sequence-specific DNA-binding proteins</title>
+      <link>http://kortschak.io/publication/deadringer/</link>
+      <pubDate>Fri, 01 Mar 1996 00:00:00 +0000</pubDate>
+      
+      <guid>http://kortschak.io/publication/deadringer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

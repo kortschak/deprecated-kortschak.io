@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.22-DEV" />
+  <meta name="author" content="Dan Kortschak">
+  <meta name="description" content="Bioinformatics Researcher">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="http://kortschak.io/index.xml" type="application/rss+xml" title="kortschak.io">
+  <link rel="feed" href="http://kortschak.io/index.xml" type="application/rss+xml" title="kortschak.io">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://kortschak.io/publication/biogo-ncbi/">
+
+  
+
+  <title>bíogo/ncbi: interfaces to NCBI services for the Go language | kortschak.io</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">kortschak.io</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+  <div class="container pub-title">
+    <h1 itemprop="name">bíogo/ncbi: interfaces to NCBI services for the Go language</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      R Daniel Kortschak, David L Adelson
+      
+    </span>
+    <span class="pull-right">
+      
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fkortschak.io%2fpublication%2fbiogo-ncbi%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=b%c3%adogo%2fncbi%3a%20interfaces%20to%20NCBI%20services%20for%20the%20Go%20language&amp;url=http%3a%2f%2fkortschak.io%2fpublication%2fbiogo-ncbi%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fkortschak.io%2fpublication%2fbiogo-ncbi%2f&amp;title=b%c3%adogo%2fncbi%3a%20interfaces%20to%20NCBI%20services%20for%20the%20Go%20language"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fkortschak.io%2fpublication%2fbiogo-ncbi%2f&amp;title=b%c3%adogo%2fncbi%3a%20interfaces%20to%20NCBI%20services%20for%20the%20Go%20language"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=b%c3%adogo%2fncbi%3a%20interfaces%20to%20NCBI%20services%20for%20the%20Go%20language&amp;body=http%3a%2f%2fkortschak.io%2fpublication%2fbiogo-ncbi%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    </span>
+  </div>
+
+</div>
+<div class="article-container">
+
+  
+
+  <h3>Abstract</h3>
+  <p class="pub-abstract" itemprop="text">The National Center for Biotechnology Information makes available BLAST sequence similarity search (Biotechnology Information (US) 2017a) and health science database search through the Entrez service (Biotechnology Information (US) 2005). In addition to an interactive web interface, BLAST and Entrez provide an application programmer interface to allow programmatic use of these services via the BLAST URL API (Biotechnology Information (US) 2017b) and the Entrez EUtilities (Biotechnology Information (US) 2010). The BioPerl suite (Stajich J.E. 2002) provides access to the BLAST API via Bio::Tools::Run::StandAloneBlastPlus (Fields C. 2017a) and to Entrez via Bio::Tools::EUtilities (Fields C. 2017b). Similarly, Biopython (Cock P.J.A. 2009) provides access via the NCBIWWW function in the Bio.Blast module and functions in Bio.Entrez for EUtilities. Packages within bíogo/ncbi provide Go application programmer interfaces to the NCBI BLAST and EUtilities services. The design of bíogo/ncbi is light weight, allowing the user to make use of the Go language&#39;s control structures and data types, rather than imposing a library-specific access approach. In addition to allowing remote BLAST searches, BioPerl and Biopython provide mechanisms to parse XML output from local BLAST search via BioPerl&#39;s Bio::SearchIO and Biopythons Bio.Blast NCBIXML. Because of the modular design of bíogo/ncbi, XML encoded output from local BLAST searches or remote downloads can be parsed using the Go standard library&#39;s XML package.</p>
+
+  
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+        <div class="col-xs-12 col-sm-9">
+          
+          <a href="/publication/#2">
+            Journal
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+  
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+        <div class="col-xs-12 col-sm-9">The Journal of Open Source Software</div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+          May, 2017
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row" style="padding-top: 10px">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+        <div class="col-xs-12 col-sm-9">
+
+          
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/openjournals/joss-papers/raw/master/joss.00234/10.21105.joss.00234.pdf">
+  PDF
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/biogo/ncbi">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://joss.theoj.org/papers/10.21105/joss.00234">
+  HTML
+</a>
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="space-below"></div>
+
+  <div class="article-style"><p>Biotechnology Information (US), National Center for. 2005. “Entrez Programming Utilities Help.” <a href="https://www.ncbi.nlm.nih.gov/books/NBK3836/" target="_blank">https://www.ncbi.nlm.nih.gov/books/NBK3836/</a>.</p>
+
+<p>———. 2010. “Entrez Programming Utilities Help.” <a href="https://www.ncbi.nlm.nih.gov/books/NBK25501/" target="_blank">https://www.ncbi.nlm.nih.gov/books/NBK25501/</a>.</p>
+
+<p>———. 2017a. “Basic Local Alignment Search Tool.” Accessed March 3. <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank">https://blast.ncbi.nlm.nih.gov/Blast.cgi</a>.</p>
+
+<p>———. 2017b. “Common Url Api.” Accessed March 3. <a href="http://www.ncbi.nlm.nih.gov/BLAST/Doc/urlapi.html" target="_blank">http://www.ncbi.nlm.nih.gov/BLAST/Doc/urlapi.html</a>.</p>
+
+<p>Cock P.J.A., et al. 2009. “Biopython: Freely Available Python Tools for Computational Molecular Biology and Bioinformatics.” Bioinformatics 25 (11): 1422–3. doi:<a href="https://doi.org/10.1093/bioinformatics/btp163" target="_blank">10.1093/bioinformatics/btp163</a>.</p>
+
+<p>Fields C. 2017a. “Bio-Eutilities.” Accessed March 3. <a href="https://github.com/bioperl/bioperl-run" target="_blank">https://github.com/bioperl/bioperl-run</a>.</p>
+
+<p>———. 2017b. “Bio-Eutilities.” Accessed March 3. <a href="https://github.com/bioperl/Bio-EUtilities" target="_blank">https://github.com/bioperl/Bio-EUtilities</a>.</p>
+
+<p>Stajich J.E., et al. 2002. “The Bioperl Toolkit: Perl Modules for the Life Sciences.” Genome Research 12 (10): 1611–8. doi:<a href="https://doi.org/10.1101/gr.361602" target="_blank">10.1101/gr.361602</a>.</p>
+</div>
+
+</div>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="http://kortschak.io/publication/biogo/"><span
+      aria-hidden="true">&larr;</span> bíogo: a simple high-performance bioinformatics toolkit for the Go language</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Dan Kortschak &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+
+  </body>
+</html>
+

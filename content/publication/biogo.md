@@ -1,6 +1,6 @@
 +++
 abstract = "bíogo is a framework designed to ease development and maintenance of computationally intensive bioinformatics applications (Kortschak and Adelson 2014). The library is written in the Go programming language, a garbage-collected, strictly typed compiled language with built in support for concurrent processing, and performance comparable to C and Java. It provides a variety of data types and utility functions to facilitate manipulation and analysis of large scale genomic and other biological data. bíogo uses a concise and expressive syntax, lowering the barriers to entry for researchers needing to process large data sets with custom analyses while retaining computational safety and ease of code review. We believe bíogo provides an excellent environment for training and research in computational biology because of its combination of strict typing, simple and expressive syntax, and high performance."
-abstract_short = ""
+abstract_short = "bíogo is a framework designed to ease development and maintenance of computationally intensive bioinformatics applications."
 authors = ["R Daniel Kortschak", "Josh Bleecher Snyder", "Manolis Maragkakis", "David L Adelson"]
 date = "2017-02-18"
 image_preview = "biogo.png"
