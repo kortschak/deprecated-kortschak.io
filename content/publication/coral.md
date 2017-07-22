@@ -9,7 +9,7 @@ publication_types = ["2"]
 publication = "*Current Biology* 13:2190-2195"
 publication_short = ""
 selected = true
-title = "EST Analysis of the Cnidarian Acropora millepora Reveals Extensive Gene Loss and Rapid Sequence Divergence in the Model Invertebrates"
+title = "EST analysis of the Cnidarian Acropora millepora reveals extensive gene loss and rapid sequence divergence in the model invertebrates"
 url_pdf = "http://www.cell.com/current-biology/pdf/S0960-9822(03)00872-8.pdf"
 
 [[url_custom]]

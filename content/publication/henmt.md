@@ -9,7 +9,7 @@ publication_types = ["2"]
 publication = "*PLoS Genetics* 11:e1005620"
 publication_short = ""
 selected = false
-title = "HENMT1 and piRNA Stability Are Required for Adult Male Germ Cell Transposon Repression and to Define the Spermatogenic Program in the Mouse"
+title = "HENMT1 and piRNA stability are required for adult male germ cell transposon repression and to define the spermatogenic program in the mouse"
 url_code = "https://github.com/henmt/2015"
 url_dataset = ""
 url_pdf = "http://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1005620&type=printable"
