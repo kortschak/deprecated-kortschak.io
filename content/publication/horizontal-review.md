@@ -19,7 +19,7 @@ url_video = ""
 
 [[url_custom]]
 name = "HTML"
-url = "`https://doi.org/10.1002/bies.201300072"
+url = "https://doi.org/10.1002/bies.201300072"
 
 +++
 
