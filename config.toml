@@ -21,8 +21,8 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Dan Kortschak"
-  role = "Bioinformatics Researcher"
-  organization = "The University of Adelaide"
+  role = "Scientific Software Engineer"
+  organization = ""
   organization_url = ""
   avatar = "shattered.png"
   email = "dan@kortschak.io"
@@ -142,11 +142,6 @@ defaultContentLanguageInSubdir = false
     icon = "orcid"
     icon_pack = "ai"
     link = "https://orcid.org/0000-0001-8295-2301"
-
-  [[params.social]]
-    icon = "google-plus"
-    icon_pack = "fa"
-    link = "https://plus.google.com/+DanKortschak"
 
 
 # Navigation Links

@@ -14,6 +14,9 @@ weight = 60
 
 +++
 
-I am teaching the bioinformatics course of the Master of Biotechnology at Adelaide:
+I am teaching the bioinformatics courses of the Master of Biotechnology and Master of Bioinfdormatics programmes at Adelaide:
 
+- BIOINF7110: Biology for Bioinformatics
+- BIOINF7120: Research Methods in Bioinformatics
+- BIOINF7130: Bioinformatics Practice
 - BIOTECH7005: Bioinformatics and Systems Modelling
